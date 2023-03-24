@@ -1,0 +1,94 @@
+body{
+    background-color: white;
+}
+p{
+    color: gray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.frm{
+    border: 2px solid;
+    box-shadow: 2px 2px 2px;
+    height: 90vh;
+    width: 40%;
+    margin-left: 30%;
+}
+.frm h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #1b75bc;
+}
+.frm h2{
+    text-align: center;
+    margin-top: 2%;
+    color: black;
+
+}
+.frm p{
+    text-align: center;
+    margin-top: 5%;
+}
+.frm input{
+    border-radius: 8px;
+    width: 60%;
+    height: 5vh;
+    margin-left: 20%;
+    padding-left: 2%
+}
+.pswd{
+    margin-top: -5%;
+}
+.frm button{
+    color: white;
+    background-color: #1b75bc;
+    height: 5vh;
+    width: 35%;
+    margin-left: 33.5%;
+    margin-top: 3%;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+@media screen and (max-width:985px) {
+    .frm{
+        border: none;
+        box-shadow: none;
+    }
+    
+    .frm h1{
+        text-align: center;
+        margin-top: 20%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .frm h2{
+        text-align: left;
+        margin-left: 3%;
+        margin-top: 15%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .frm{
+        margin-left: 3%;
+        width: 90%;
+    }
+    .frm p{
+        text-align: left;
+        margin-left: 3%;
+        margin-top: 8%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .frm input{
+        text-align: left;
+        margin-left: 3%;
+        width: 88%;
+        padding-left: 5%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .frm button{
+        margin-left: 3%;
+        width: 95%;
+        font-size:medium;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}
